@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "magnitude": 6.2,
+        "rake": 129,
+        "event": "Christchurch 22 Feb 2011",
+        "Hyp_Lon": 172.6909,
+        "Hyp_Lat": -43.5660,
+        "Hyp_Depth": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [172.5998, -43.5885, 0.0],
+            [172.7513, -43.5116, 0.0],
+            [172.7820, -43.5435, 9.702],
+            [172.6304, -43.6204, 9.702],
+            [172.5998, -43.5885, 0.0]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+    <logicTree logicTreeID='lt1'>
+            <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs_crust"
+                    applyToTectonicRegionType="Active Shallow Crust">
+
+                    <logicTreeBranch branchID="STF22_upper">
+                <uncertaintyModel>[Stafford2022]
+                  mu_branch = "Upper" </uncertaintyModel>
+                <uncertaintyWeight>0.117</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="STF22_center">
+                <uncertaintyModel>[Stafford2022]
+                  mu_branch = "Central" </uncertaintyModel>
+                        <uncertaintyWeight>0.156</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="STF22_lower">
+                <uncertaintyModel>[Stafford2022]
+                  mu_branch = "Lower" </uncertaintyModel>
+                        <uncertaintyWeight>0.117</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="ATK22_crust_upper">
+                <uncertaintyModel>[Atkinson2022Crust]
+                  epistemic = "Upper"
+                  modified_sigma = "true"
+                  </uncertaintyModel>
+                        <uncertaintyWeight>0.084</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="ATK22_crust_center">
+                <uncertaintyModel>[Atkinson2022Crust]
+                  epistemic = "Central"
+                  modified_sigma = "true"
+                  </uncertaintyModel>
+                        <uncertaintyWeight>0.112</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="ATK22_crust_lower">
+                <uncertaintyModel>[Atkinson2022Crust]
+                  epistemic = "Lower"
+                  modified_sigma = "true"
+                  </uncertaintyModel>
+                        <uncertaintyWeight>0.084</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="ASK2014_upper">
+                <uncertaintyModel>[AbrahamsonEtAl2014]
+                sigma_mu_epsilon = 1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="ASK2014_center">
+                <uncertaintyModel>[AbrahamsonEtAl2014]
+                sigma_mu_epsilon = 0.0 </uncertaintyModel>
+                        <uncertaintyWeight>0.0264</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="ASK2014_lower">
+                <uncertaintyModel>[AbrahamsonEtAl2014]
+                  sigma_mu_epsilon = -1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="BSSA2014_upper">
+                <uncertaintyModel>[BooreEtAl2014]
+                  sigma_mu_epsilon = 1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="BSSA2014_center">
+                <uncertaintyModel>[BooreEtAl2014]
+                  sigma_mu_epsilon = 0.0 </uncertaintyModel>
+                        <uncertaintyWeight>0.0264</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="BSSA2014_lower">
+                <uncertaintyModel>[BooreEtAl2014]
+                  sigma_mu_epsilon = -1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="CB2014_upper">
+                <uncertaintyModel>[CampbellBozorgnia2014]
+                sigma_mu_epsilon = 1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="CB2014_center">
+                <uncertaintyModel>[CampbellBozorgnia2014]
+                sigma_mu_epsilon = 0.0 </uncertaintyModel>
+                        <uncertaintyWeight>0.0264</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="CB2014_lower">
+                <uncertaintyModel>[CampbellBozorgnia2014]
+                sigma_mu_epsilon = -1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="CY2014_upper">
+                <uncertaintyModel>[ChiouYoungs2014]
+                sigma_mu_epsilon = 1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="CY2014_center">
+                <uncertaintyModel>[ChiouYoungs2014]
+                sigma_mu_epsilon = 0.0 </uncertaintyModel>
+                        <uncertaintyWeight>0.0264</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="CY2014_lower">
+                <uncertaintyModel>[ChiouYoungs2014]
+                sigma_mu_epsilon = -1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="Br2013_upper">
+                <uncertaintyModel>[Bradley2013]
+                sigma_mu_epsilon = 1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="Br2013_center">
+                <uncertaintyModel>[Bradley2013]
+                sigma_mu_epsilon = 0.0 </uncertaintyModel>
+                        <uncertaintyWeight>0.0264</uncertaintyWeight>
+                    </logicTreeBranch>
+
+                    <logicTreeBranch branchID="Br2013_lower">
+                <uncertaintyModel>[Bradley2013]
+                sigma_mu_epsilon = -1.28155 </uncertaintyModel>
+                        <uncertaintyWeight>0.0198</uncertaintyWeight>
+                    </logicTreeBranch>
+            </logicTreeBranchSet>
+    </logicTree>
+</nrml>
