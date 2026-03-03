@@ -1,0 +1,47 @@
+#,,"generated_by='OpenQuake engine 3.24.1', start_date='2026-03-04T10:33:37', checksum=3862909754"
+rlz_id,branch_path,weight
+0,"[Stafford2022]
+mu_branch = """"Upper""""",1.1700000e-01
+1,"[Stafford2022]
+mu_branch = """"Central""""",1.5600000e-01
+2,"[Stafford2022]
+mu_branch = """"Lower""""",1.1700000e-01
+3,"[Atkinson2022Crust]
+epistemic = """"Upper""""
+modified_sigma = """"true",8.3999999e-02
+4,"[Atkinson2022Crust]
+epistemic = """"Central""""
+modified_sigma = """"tr",1.1200000e-01
+5,"[Atkinson2022Crust]
+epistemic = """"Lower""""
+modified_sigma = """"true",8.3999999e-02
+6,"[AbrahamsonEtAl2014]
+sigma_mu_epsilon = 1.28155",1.9800000e-02
+7,"[AbrahamsonEtAl2014]
+sigma_mu_epsilon = 0.0",2.6400000e-02
+8,"[AbrahamsonEtAl2014]
+sigma_mu_epsilon = -1.28155",1.9800000e-02
+9,"[BooreEtAl2014]
+sigma_mu_epsilon = 1.28155",1.9800000e-02
+10,"[BooreEtAl2014]
+sigma_mu_epsilon = 0.0",2.6400000e-02
+11,"[BooreEtAl2014]
+sigma_mu_epsilon = -1.28155",1.9800000e-02
+12,"[CampbellBozorgnia2014]
+sigma_mu_epsilon = 1.28155",1.9800000e-02
+13,"[CampbellBozorgnia2014]
+sigma_mu_epsilon = 0.0",2.6400000e-02
+14,"[CampbellBozorgnia2014]
+sigma_mu_epsilon = -1.28155",1.9800000e-02
+15,"[ChiouYoungs2014]
+sigma_mu_epsilon = 1.28155",1.9800000e-02
+16,"[ChiouYoungs2014]
+sigma_mu_epsilon = 0.0",2.6400000e-02
+17,"[ChiouYoungs2014]
+sigma_mu_epsilon = -1.28155",1.9800000e-02
+18,"[Bradley2013]
+sigma_mu_epsilon = 1.28155",1.9800000e-02
+19,"[Bradley2013]
+sigma_mu_epsilon = 0.0",2.6400000e-02
+20,"[Bradley2013]
+sigma_mu_epsilon = -1.28155",1.9800000e-02
