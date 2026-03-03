@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nrml xmlns:gml="http://www.opengis.net/gml" xmlns="http://openquake.org/xmlns/nrml/0.4">    <singlePlaneRupture>
+<nrml xmlns:gml="http://www.opengis.net/gml" xmlns="http://openquake.org/xmlns/nrml/0.4">    
+<singlePlaneRupture>
         <magnitude>6.2</magnitude>
         <rake>129</rake>
         <hypocenter lat="-43.5660" lon="172.6909" depth="4"/>
